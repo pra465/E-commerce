@@ -1,0 +1,132 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 12px 35px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo-links-container{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    text-decoration: none;
+    color: #000000;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.nav-links{
+    column-gap: 70px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.nav-search-profile-cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeaea;
+    padding: 0px 0px 0px 10px;
+    border-radius: 6px;
+    height: 40px;
+    width: 400px;
+}
+
+.search-box input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #eeeaea;
+    margin-left: 10px;
+}
+
+.cart{
+    display: flex;
+}
+.itemCount{
+    position: relative;
+    top: -10px;
+    left: -2px;
+    background-color: #004080;
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+.search-btn{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #004080;
+    border-radius: 5px;
+    padding: 7.5px 12px;
+}
+
+.hamburger-icon{
+    display: none;
+}
+
+.nav-small-device{
+    display: none;
+}
+
+.cart-page{
+    width: 500px;
+    background-color: bisque;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+@media screen and (max-width: 950px){
+    .nav-links{
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+    }
+
+    .nav-small-device{
+        width: 300px;
+        display: block;
+        position: absolute;
+        background-color: antiquewhite;
+        padding: 10px;
+        top: 65px;
+        right: 0px;
+        text-align: center;
+    }
+
+    .nav-small-device .nav-links{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .search-box{
+        position: absolute;
+        top: 60px;
+        left: 30px
+    }
+}

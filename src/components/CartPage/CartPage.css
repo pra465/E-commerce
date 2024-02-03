@@ -1,0 +1,11 @@
+.cartItem{
+    display: flex;
+    color: #000000;
+    margin: 20px;
+}
+
+.cartItem img{
+    width: 100px;
+    height: 70px;
+    margin-right: 10px;
+}
