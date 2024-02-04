@@ -124,10 +124,14 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 667px){
     .search-box{
         position: absolute;
         top: 60px;
         left: 30px
+    }
+
+    .cart-page{
+        width: 340px;
     }
 }
