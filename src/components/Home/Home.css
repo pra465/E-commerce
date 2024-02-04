@@ -3,3 +3,20 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     padding: 0px 50px;
 }
+
+.pagination{
+    margin-top: 50px;
+    text-align: center;
+}
+.pagination > span{
+    padding: 15px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.page_selected{
+    background-color: rgb(183, 183, 183)
+}
+
+.pagination_disable{
+    opacity: 0;
+}
