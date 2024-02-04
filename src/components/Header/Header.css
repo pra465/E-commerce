@@ -128,10 +128,14 @@
     .search-box{
         position: absolute;
         top: 60px;
-        left: 30px
+        left: 20px
     }
 
     .cart-page{
         width: 340px;
+    }
+
+    .search-box{
+        width: 350px;
     }
 }
