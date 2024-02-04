@@ -73,3 +73,9 @@
 .product-links {
     text-align: right;
 }
+
+@media screen and (max-width: 667px){
+    .product-card{
+        width: 280px;
+    }
+}

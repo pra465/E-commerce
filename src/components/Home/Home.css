@@ -20,3 +20,11 @@
 .pagination_disable{
     opacity: 0;
 }
+
+@media screen and (max-width: 950px){}
+
+@media screen and (max-width: 667px){
+    .pagination > span{
+        padding: 10px 15px;
+    }
+}
